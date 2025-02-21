@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
-
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
 .hehe {
-  @apply text-amber-300 bg-amber-950 py-7;
+  @apply text-amber-300 bg-cyan-900 py-7;
 }
